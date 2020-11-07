@@ -36,3 +36,12 @@ server: mysql
 Username: root
 password: ${MYSQL_ROOT_PASSWORD}
 </pre>
+
+### Issues
+
+## MYSQL Resatrting
+
+ - Mysql continuously restarting.
+
+### Solution
+ - Delete mysql folder, recreate and redeploy containers
