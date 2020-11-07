@@ -37,6 +37,14 @@ Username: root
 password: ${MYSQL_ROOT_PASSWORD}
 </pre>
 
+# Laravel
+
+- Generate your laravel project in the root folder using the composer disposable container. You must call the project src unless you change the pathing.
+
+# Nginx
+
+- Nginx is set up to disallow access to non-public files. You will need to set up htaccess if you wish to change this to an apache service.
+
 ### Issues
 
 ## MYSQL Resatrting
